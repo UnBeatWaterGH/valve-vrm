@@ -33,7 +33,7 @@
 ### `nodes`
  Same as in SMD.
 ### `skeleton`
- Same as in SMD, only difference seems to be the way numbers are stored.
+ Same as in SMD.
 
 --------------------------------------------------------------------------------
 
