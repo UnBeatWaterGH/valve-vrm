@@ -44,6 +44,9 @@ def main(file):
             case 'vertices':
                 print(f'Vert count: {split_line[1]}', file=sys.stderr)
                 vert_count = int(split_line[1])
+            case 'faces':
+                print(f'Face count: {split_line[1]}', file=sys.stderr)
+                face_count = int(split_line[1])
             case 'materials':
                 print(f'Material count: {split_line[1]}', file=sys.stderr)
                 material_count = int(split_line[1])
@@ -83,6 +86,8 @@ def main(file):
         print('Warning: Vert count not matching up?', file=sys.stderr)
     if len(faces) != face_count:
         print('Warning: Face count not matching up?', file=sys.stderr)
+    if len(faceattribs) != face_count:
+        print('Warning: Face attribute count not matching up?', file=sys.stderr)
     if len(materials) != material_count:
         print('Warning: Material count not matching up?', file=sys.stderr)
     if len(uvs) != uv_count:
