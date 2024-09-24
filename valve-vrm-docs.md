@@ -40,7 +40,7 @@
 ### `vertexlist`
  List of vertices.
  
- Each item in the list: `<int|ID> <int|Parent Bone> <float|PosX PosY PosZ> <int|Bone ID> <float|Weight> [...]`
+ Each item in the list: `<int|ID> <int|Parent Bone> <float|PosX PosY PosZ> <int|links> <int|Bone ID> <float|Weight> [...]`
 ### `facelist`
  List of faces (triangles).
 
