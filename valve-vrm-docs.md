@@ -1,5 +1,4 @@
 # VRM (Valve MRM) Format
---------------------------------------------------------------------------------
 ## Commands
 ### `version`
  Always equal to 2, otherwise the file can be considered as using a "bad version".
